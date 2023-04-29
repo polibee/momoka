@@ -21,8 +21,9 @@ docker run -d --name momoka \
   -e DATABASE_URL=postgres://postgres:password@momoka-postgres:5432/momoka \
   -e REDIS_URL=redis://momoka-redis:6379 \
   -v momoka-data:/app/public/uploads \
-  -p 3000:3000 \
+  -p 4000:4000 \
   momoka
 
 # momoka 应用部署完成
 echo "momoka deployed!"
+
